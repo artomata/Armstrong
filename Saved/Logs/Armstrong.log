@@ -1,4 +1,4 @@
-﻿Log file open, 06/11/19 23:05:03
+﻿Log file open, 06/12/19 19:58:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Armstrong
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.380210
+LogStats: Stats thread started at 0.713159
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,479 +156,594 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:715][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:727][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:727][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.12-04.05.03:727][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.06.12-04.05.03:727][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:727][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.06.12-04.05.03:727][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.06.12-04.05.03:728][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.12-04.05.03:728][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.06.12-04.05.03:744][  0]LogHAL: Display: Platform has ~ 16 GB [17087303680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.06.12-04.05.03:744][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.06.12-04.05.03:744][  0]LogInit: Going up to parent DeviceProfile []
-[2019.06.12-04.05.03:746][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.06.12-04.05.03:746][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
-[2019.06.12-04.05.03:747][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.06.12-04.05.03:753][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.06.12-04.05.03:753][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.06.12-04.05.03:753][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
-[2019.06.12-04.05.03:753][  0]LogInit: Computer: COLE-PC
-[2019.06.12-04.05.03:753][  0]LogInit: User: Cole
-[2019.06.12-04.05.03:753][  0]LogInit: CPU Page size=4096, Cores=8
-[2019.06.12-04.05.03:753][  0]LogInit: High frequency timer resolution =3.515623 MHz
-[2019.06.12-04.05.03:753][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.06.12-04.05.03:753][  0]LogMemory: Platform Memory Stats for Windows
-[2019.06.12-04.05.03:753][  0]LogMemory: Process Physical Memory: 96.19 MB used, 96.19 MB peak
-[2019.06.12-04.05.03:753][  0]LogMemory: Process Virtual Memory: 90.95 MB used, 90.95 MB peak
-[2019.06.12-04.05.03:753][  0]LogMemory: Physical Memory: 9309.73 MB used,  6985.99 MB free, 16295.72 MB total
-[2019.06.12-04.05.03:753][  0]LogMemory: Virtual Memory: 4659.88 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.06.12-04.05.03:797][  0]LogInit: Using OS detected language (en-US).
-[2019.06.12-04.05.03:797][  0]LogInit: Using OS detected locale (en-US).
-[2019.06.12-04.05.03:799][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.06.12-04.05.04:115][  0]LogInit: Setting process to per monitor DPI aware
-[2019.06.12-04.05.04:182][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.06.12-04.05.04:182][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.06.12-04.05.06:240][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.12-04.05.06:240][  0]LogD3D11RHI: D3D11 adapters:
-[2019.06.12-04.05.06:316][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2019.06.12-04.05.06:316][  0]LogD3D11RHI:       11127/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.06.12-04.05.06:318][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.06.12-04.05.06:318][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.06.12-04.05.06:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.06.12-04.05.06:328][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.06.12-04.05.06:328][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2019.06.12-04.05.06:328][  0]LogWindows: EnumDisplayDevices:
-[2019.06.12-04.05.06:328][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2019.06.12-04.05.06:328][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2019.06.12-04.05.06:328][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.06.12-04.05.06:329][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.06.12-04.05.06:329][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.06.12-04.05.06:329][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2019.06.12-04.05.06:329][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
-[2019.06.12-04.05.06:329][  0]LogD3D11RHI:      Driver Date: 2-6-2019
-[2019.06.12-04.05.06:329][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2019.06.12-04.05.06:365][  0]LogD3D11RHI: Async texture creation enabled
-[2019.06.12-04.05.06:370][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.12-04.05.06:370][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.12-04.05.06:370][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.06.12-04.05.06:380][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.06.12-04.05.06:764][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.06.12-04.05.06:777][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.06.12-04.05.06:792][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.06.12-04.05.06:805][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.06.12-04.05.06:823][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.06.12-04.05.06:836][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.06.12-04.05.06:850][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.06.12-04.05.06:863][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.06.12-04.05.06:871][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.06.12-04.05.06:967][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.06.12-04.05.06:968][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.06.12-04.05.06:971][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.06.12-04.05.07:026][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.06.12-04.05.07:026][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.06.12-04.05.07:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.06.12-04.05.07:047][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.06.12-04.05.07:059][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.06.12-04.05.07:072][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.06.12-04.05.07:085][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.06.12-04.05.07:105][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.06.12-04.05.07:149][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.06.12-04.05.07:149][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.06.12-04.05.07:149][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.06.12-04.05.07:161][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.06.12-04.05.07:228][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Cole/Documents/GitHub/Armstrong/Intermediate/Shaders/WorkingDirectory/33620/).
-[2019.06.12-04.05.07:228][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cole/AppData/Local/Temp/UnrealShaderWorkingDir/865402D149791BA02D466FBB4B9EE047/'.
-[2019.06.12-04.05.07:231][  0]LogXGEController: Cleaning working directory: C:/Users/Cole/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.06.12-04.05.07:243][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2019.06.12-04.05.09:150][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: Loaded boot cache 0.19s 71MB C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cole/Documents/GitHub/Armstrong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Cole/Documents/GitHub/Armstrong/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.12-04.05.09:344][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.06.12-04.05.09:356][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.06.12-04.05.09:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.06.12-04.05.09:356][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.06.12-04.05.09:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cole/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.06.12-04.05.09:368][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.06.12-04.05.09:368][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.06.12-04.05.09:389][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.06.12-04.05.09:390][  0]LogSlate: Using FreeType 2.6.0
-[2019.06.12-04.05.09:406][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.06.12-04.05.09:732][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
-[2019.06.12-04.05.10:054][  0]LogInit: Selected Device Profile: [Windows]
-[2019.06.12-04.05.10:201][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.06.12-04.05.10:201][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.06.12-04.05.10:201][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.06.12-04.05.10:201][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.06.12-04.05.10:201][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.06.12-04.05.10:214][  0]LogNetVersion: Armstrong 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 833556632)
-[2019.06.12-04.05.10:670][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.041140 seconds
-[2019.06.12-04.05.10:678][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.06.12-04.05.10:678][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.06.12-04.05.10:678][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.06.12-04.05.13:809][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.06.12-04.05.13:823][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.06.12-04.05.13:946][  0]SourceControl: Source control is disabled
-[2019.06.12-04.05.13:947][  0]SourceControl: Source control is disabled
-[2019.06.12-04.05.13:949][  0]SourceControl: Source control is disabled
-[2019.06.12-04.05.13:951][  0]SourceControl: Source control is disabled
-[2019.06.12-04.05.14:117][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.06.12-04.05.14:353][  0]LogOcInput: OculusInput pre-init called
-[2019.06.12-04.05.14:999][  0]LogEngine: Initializing Engine...
-[2019.06.12-04.05.15:000][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.06.12-04.05.15:001][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.06.12-04.05.15:209][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.06.12-04.05.15:229][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.06.12-04.05.15:360][  0]LogInit: XAudio2 using 'CABLE Input (VB-Audio Virtual Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.06.12-04.05.15:374][  0]LogInit: FAudioDevice initialized.
-[2019.06.12-04.05.15:374][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.06.12-04.05.15:462][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.06.12-04.05.15:466][  0]LogInit: Texture streaming: Enabled
-[2019.06.12-04.05.15:490][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.06.12-04.05.15:527][  0]LogInit: Transaction tracking system initialized
-[2019.06.12-04.05.15:563][  0]BlueprintLog: New page: Editor Load
-[2019.06.12-04.05.15:686][  0]LocalizationService: Localization service is disabled
-[2019.06.12-04.05.16:009][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/' took 0.01s
-[2019.06.12-04.05.16:009][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.06.12-04.05.16:009][  0]LogCook: Display: Mobile HDR setting 1
-[2019.06.12-04.05.16:340][  0]SourceControl: Source control is disabled
-[2019.06.12-04.05.16:341][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.06.12-04.05.16:341][  0]LightingResults: New page: Lighting Build
-[2019.06.12-04.05.16:346][  0]MapCheck: New page: Map Check
-[2019.06.12-04.05.16:346][  0]LightingResults: New page: Lighting Build
-[2019.06.12-04.05.16:376][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
-[2019.06.12-04.05.16:629][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.06.12-04.05.16:708][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.06.12-04.05.16:738][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2019.06.12-04.05.16:739][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.06.12-04.05.16:740][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
-[2019.06.12-04.05.16:740][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.398
-[2019.06.12-04.05.18:296][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.06.12-04.05.18:369][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.12-04.05.18:376][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.12-04.05.18:383][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.12-04.05.18:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.06.12-04.05.18:404][  0]LogCollectionManager: Loaded 0 collections in 0.001724 seconds
-[2019.06.12-04.05.18:445][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Collections/' took 0.01s
-[2019.06.12-04.05.18:445][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/Developers/Cole/Collections/' took 0.01s
-[2019.06.12-04.05.18:445][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/Collections/' took 0.01s
-[2019.06.12-04.05.18:445][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.06.12-04.05.18:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2732 classes and 659 folders.
-[2019.06.12-04.05.18:463][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.12-04.05.18:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:502][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:518][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:535][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:540][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:544][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:550][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:555][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:565][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:618][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:629][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.06.12-04.05.18:839][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.12-04.05.18:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.06.12-04.05.18:915][  0]LogSlate: Took 0.005037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.06.12-04.05.18:922][  0]LogSlate: Took 0.005033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.06.12-04.05.18:932][  0]LogSlate: Took 0.005717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.06.12-04.05.19:028][  0]LogRenderer: Reallocating scene render targets to support 1968x1004 Format 9 NumSamples 1 (Frame:1).
-[2019.06.12-04.05.19:154][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.06.12-04.05.19:155][  0]LogLoad: (Engine Initialization) Total time: 20.09 seconds
-[2019.06.12-04.05.19:155][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.06.12-04.05.19:193][  0]LogAssetRegistry: Asset discovery search completed in 9.4837 seconds
-[2019.06.12-04.05.19:196][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.06.12-04.05.19:196][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2019.06.12-04.05.19:198][  0]LogContentStreaming: Texture pool size now 800 MB
-[2019.06.12-04.05.29:833][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.06.12-04.05.50:825][534]LogSlate: Took 0.003976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.06.12-04.05.50:866][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2019.06.12-04.05.50:987][534]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap0B0C0F4D4CD360F5BD722C9EA5C5F402.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.12-04.05.51:131][534]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltDataD33C764D41FF0C817E15D6AFDCBF3027.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2019.06.12-04.05.53:742][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2019.06.12-04.05.53:850][841]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap3B1D1872441ACE6F1D42358E4760D9EE.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.12-04.05.53:933][841]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltDataA52D8A33432B1FF6B65962BB850F0BF5.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2019.06.12-04.05.54:127][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
-[2019.06.12-04.05.54:237][858]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMapD4DCFBD94F07B028482F88954CF0D7A3.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.12-04.05.54:323][858]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltData82C7D827455DB5DBDC0B9E9D0825B204.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2019.06.12-04.07.37:267][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2019.06.12-04.07.37:379][254]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap76D5803B47E8B63B5039238BA457EA6F.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.12-04.07.37:462][254]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltData398ACCF74BC4E83B876633868A11A8B2.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2019.06.12-04.07.42:732][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_09.png)
-[2019.06.12-04.07.42:736][545]LogTexture: Display: Building textures: Shape_09 (BGRA8, 87X87)
-[2019.06.12-04.07.42:746][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_01.png)
-[2019.06.12-04.07.42:749][545]LogTexture: Display: Building textures: Shape_01 (BGRA8, 87X87)
-[2019.06.12-04.07.42:758][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_02.png)
-[2019.06.12-04.07.42:760][545]LogTexture: Display: Building textures: Shape_02 (BGRA8, 87X87)
-[2019.06.12-04.07.42:770][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_03.png)
-[2019.06.12-04.07.42:772][545]LogTexture: Display: Building textures: Shape_03 (BGRA8, 87X87)
-[2019.06.12-04.07.42:781][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_04.png)
-[2019.06.12-04.07.42:784][545]LogTexture: Display: Building textures: Shape_04 (BGRA8, 87X87)
-[2019.06.12-04.07.42:792][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_05.png)
-[2019.06.12-04.07.42:795][545]LogTexture: Display: Building textures: Shape_05 (BGRA8, 87X87)
-[2019.06.12-04.07.42:803][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_06.png)
-[2019.06.12-04.07.42:809][545]LogTexture: Display: Building textures: Shape_06 (BGRA8, 87X87)
-[2019.06.12-04.07.42:817][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_07.png)
-[2019.06.12-04.07.42:820][545]LogTexture: Display: Building textures: Shape_07 (BGRA8, 87X87)
-[2019.06.12-04.07.42:828][545]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Cole\Documents\Unreal Projects\Tama\Content\FirstPersonBP\UMG\Textures\Shape_08.png)
-[2019.06.12-04.07.42:830][545]LogTexture: Display: Building textures: Shape_08 (BGRA8, 87X87)
-[2019.06.12-04.07.46:475][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_09" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_09.uasset" SILENT=true
-[2019.06.12-04.07.46:484][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0901503C824C44400474D3839F94B65B47.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_09.uasset'
-[2019.06.12-04.07.46:490][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_01" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_01.uasset" SILENT=true
-[2019.06.12-04.07.46:498][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_01539FC5544C55B8C535BCB29C57976D4C.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_01.uasset'
-[2019.06.12-04.07.46:503][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_02" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_02.uasset" SILENT=true
-[2019.06.12-04.07.46:511][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0257AF47FD4B18EE7AC56943A44DD95207.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_02.uasset'
-[2019.06.12-04.07.46:516][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_03" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_03.uasset" SILENT=true
-[2019.06.12-04.07.46:526][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_031D65A20D4DBD6CD6F4F00AA44620046B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_03.uasset'
-[2019.06.12-04.07.46:531][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_04" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_04.uasset" SILENT=true
-[2019.06.12-04.07.46:539][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0460A5D2784BC7A4DC1822FBB5C8F19361.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_04.uasset'
-[2019.06.12-04.07.46:545][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_05" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_05.uasset" SILENT=true
-[2019.06.12-04.07.46:553][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_056AE2BCB540BA557EE2AF7C87C83EDCB4.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_05.uasset'
-[2019.06.12-04.07.46:558][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_06" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_06.uasset" SILENT=true
-[2019.06.12-04.07.46:567][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0694A8F33349C64D7612EFFEAF4A3D8F2A.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_06.uasset'
-[2019.06.12-04.07.46:573][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_07" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_07.uasset" SILENT=true
-[2019.06.12-04.07.46:581][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0726AC53CC418F0E0F1501D4A0B306E5B7.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_07.uasset'
-[2019.06.12-04.07.46:586][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_08" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_08.uasset" SILENT=true
-[2019.06.12-04.07.46:595][678]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_08995DE0F54D7D2617705C4CB2FE9748AE.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_08.uasset'
-[2019.06.12-04.08.01:398][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_09" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_09.uasset" SILENT=true
-[2019.06.12-04.08.01:410][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0961ABA4A942FCD5F609F393ABBD7FDD06.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_09.uasset'
-[2019.06.12-04.08.01:413][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_01" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_01.uasset" SILENT=true
-[2019.06.12-04.08.01:424][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_01323F09A142DB115EA8C5C0BF7D5E7DF0.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_01.uasset'
-[2019.06.12-04.08.01:427][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_02" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_02.uasset" SILENT=true
-[2019.06.12-04.08.01:438][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_02702937144A136A5300F7ADA7D7B9A658.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_02.uasset'
-[2019.06.12-04.08.01:443][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_03" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_03.uasset" SILENT=true
-[2019.06.12-04.08.01:454][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_033B890DCC42CBD2E7F2128BA4E1E16D01.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_03.uasset'
-[2019.06.12-04.08.01:457][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_04" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_04.uasset" SILENT=true
-[2019.06.12-04.08.01:468][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_0464563C3545863CD747E38EA980DADA64.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_04.uasset'
-[2019.06.12-04.08.01:472][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_05" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_05.uasset" SILENT=true
-[2019.06.12-04.08.01:484][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_05AED040C0417F8EFAC863ABA8272311CE.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_05.uasset'
-[2019.06.12-04.08.01:487][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_06" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_06.uasset" SILENT=true
-[2019.06.12-04.08.01:499][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_068C8E237A49601EACF074758A70388552.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_06.uasset'
-[2019.06.12-04.08.01:503][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_07" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_07.uasset" SILENT=true
-[2019.06.12-04.08.01:514][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_07D5A0C5B0493D21036D4B5F8A63B14395.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_07.uasset'
-[2019.06.12-04.08.01:517][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/Textures/Shape_08" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_08.uasset" SILENT=true
-[2019.06.12-04.08.01:528][ 59]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Shape_086BC25CE9406F7A46E7FD548F6D893D22.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/Textures/Shape_08.uasset'
-[2019.06.12-04.08.48:046][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2019.06.12-04.08.48:157][808]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap2763108E455A68EB34972E93803A459D.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.06.12-04.08.48:245][808]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltData99A684C84A7A19113C459D80028DC7A7.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.13-00.58.28:063][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.13-00.58.28:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:064][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.13-00.58.28:076][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.13-00.58.28:077][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.13-00.58.28:077][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.13-00.58.28:093][  0]LogHAL: Display: Platform has ~ 16 GB [17087303680 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.13-00.58.28:093][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.06.13-00.58.28:093][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.13-00.58.28:094][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.13-00.58.28:094][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Scalability.ini]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.06.13-00.58.28:095][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.13-00.58.28:098][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.13-00.58.28:098][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.06.13-00.58.28:098][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Config/Windows/Engine.ini]
+[2019.06.13-00.58.28:100][  0]LogInit: Computer: COLE-PC
+[2019.06.13-00.58.28:100][  0]LogInit: User: Cole
+[2019.06.13-00.58.28:100][  0]LogInit: CPU Page size=4096, Cores=8
+[2019.06.13-00.58.28:100][  0]LogInit: High frequency timer resolution =3.515624 MHz
+[2019.06.13-00.58.28:100][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.06.13-00.58.28:100][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.13-00.58.28:101][  0]LogMemory: Process Physical Memory: 95.87 MB used, 95.87 MB peak
+[2019.06.13-00.58.28:101][  0]LogMemory: Process Virtual Memory: 90.64 MB used, 90.64 MB peak
+[2019.06.13-00.58.28:101][  0]LogMemory: Physical Memory: 6284.15 MB used,  10011.57 MB free, 16295.72 MB total
+[2019.06.13-00.58.28:101][  0]LogMemory: Virtual Memory: 4659.87 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.06.13-00.58.28:346][  0]LogInit: Using OS detected language (en-US).
+[2019.06.13-00.58.28:346][  0]LogInit: Using OS detected locale (en-US).
+[2019.06.13-00.58.28:348][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.06.13-00.58.28:668][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.13-00.58.28:756][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.13-00.58.28:756][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.13-00.58.30:573][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.13-00.58.30:573][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.13-00.58.30:637][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.06.13-00.58.30:637][  0]LogD3D11RHI:       11127/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.06.13-00.58.30:639][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.13-00.58.30:639][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.13-00.58.30:639][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.13-00.58.30:646][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.13-00.58.30:646][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.13-00.58.30:646][  0]LogWindows: EnumDisplayDevices:
+[2019.06.13-00.58.30:646][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.06.13-00.58.30:646][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.06.13-00.58.30:647][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.13-00.58.30:647][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.06.13-00.58.30:647][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.06.13-00.58.30:647][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.06.13-00.58.30:647][  0]LogD3D11RHI:   Driver Version: 418.91 (internal:25.21.14.1891, unified:418.91)
+[2019.06.13-00.58.30:647][  0]LogD3D11RHI:      Driver Date: 2-6-2019
+[2019.06.13-00.58.30:647][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.06.13-00.58.30:684][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.13-00.58.30:693][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.13-00.58.30:693][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.13-00.58.30:693][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.06.13-00.58.30:702][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.13-00.58.31:069][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.06.13-00.58.31:083][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.06.13-00.58.31:098][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.06.13-00.58.31:112][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.06.13-00.58.31:130][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.06.13-00.58.31:146][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.06.13-00.58.31:161][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.06.13-00.58.31:175][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.06.13-00.58.31:183][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.06.13-00.58.31:266][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.06.13-00.58.31:269][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.06.13-00.58.31:327][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.06.13-00.58.31:327][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.06.13-00.58.31:350][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.06.13-00.58.31:350][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.06.13-00.58.31:363][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.06.13-00.58.31:375][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.06.13-00.58.31:388][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.06.13-00.58.31:407][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.06.13-00.58.31:453][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.06.13-00.58.31:453][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.06.13-00.58.31:453][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.13-00.58.31:489][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.06.13-00.58.31:609][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/Cole/Documents/GitHub/Armstrong/Intermediate/Shaders/WorkingDirectory/5000/).
+[2019.06.13-00.58.31:610][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cole/AppData/Local/Temp/UnrealShaderWorkingDir/17125EE443E894DDAB17A88E5C6102A1/'.
+[2019.06.13-00.58.31:614][  0]LogXGEController: Cleaning working directory: C:/Users/Cole/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.06.13-00.58.31:625][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.06.13-00.58.33:417][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: Loaded boot cache 0.18s 71MB C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Cole/Documents/GitHub/Armstrong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Cole/Documents/GitHub/Armstrong/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.13-00.58.33:598][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.13-00.58.33:617][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.13-00.58.33:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.13-00.58.33:617][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.13-00.58.33:629][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cole/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.13-00.58.33:629][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.13-00.58.33:629][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.13-00.58.33:651][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.13-00.58.33:657][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.13-00.58.33:672][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.13-00.58.34:020][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2019.06.13-00.58.34:424][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.13-00.58.34:700][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.13-00.58.34:700][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.06.13-00.58.34:700][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.13-00.58.34:700][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.06.13-00.58.34:700][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.06.13-00.58.34:741][  0]LogNetVersion: Armstrong 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 833556632)
+[2019.06.13-00.58.35:717][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037738 seconds
+[2019.06.13-00.58.35:723][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.06.13-00.58.35:723][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.06.13-00.58.35:723][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.13-00.58.39:059][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.13-00.58.39:076][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.13-00.58.39:253][  0]SourceControl: Source control is disabled
+[2019.06.13-00.58.39:253][  0]SourceControl: Source control is disabled
+[2019.06.13-00.58.39:265][  0]SourceControl: Source control is disabled
+[2019.06.13-00.58.39:270][  0]SourceControl: Source control is disabled
+[2019.06.13-00.58.39:476][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.13-00.58.39:738][  0]LogOcInput: OculusInput pre-init called
+[2019.06.13-00.58.40:502][  0]LogEngine: Initializing Engine...
+[2019.06.13-00.58.40:504][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.13-00.58.40:505][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.06.13-00.58.40:862][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.13-00.58.40:905][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.13-00.58.40:989][  0]LogInit: XAudio2 using 'CABLE Input (VB-Audio Virtual Cable)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.06.13-00.58.41:003][  0]LogInit: FAudioDevice initialized.
+[2019.06.13-00.58.41:004][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.13-00.58.41:102][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Cole/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.06.13-00.58.41:105][  0]LogInit: Texture streaming: Enabled
+[2019.06.13-00.58.41:141][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.13-00.58.41:247][  0]LogInit: Transaction tracking system initialized
+[2019.06.13-00.58.41:302][  0]BlueprintLog: New page: Editor Load
+[2019.06.13-00.58.41:511][  0]LocalizationService: Localization service is disabled
+[2019.06.13-00.58.42:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/' took 0.02s
+[2019.06.13-00.58.42:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.13-00.58.42:148][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.13-00.58.42:591][  0]SourceControl: Source control is disabled
+[2019.06.13-00.58.42:591][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.13-00.58.42:592][  0]LightingResults: New page: Lighting Build
+[2019.06.13-00.58.42:600][  0]MapCheck: New page: Map Check
+[2019.06.13-00.58.42:600][  0]LightingResults: New page: Lighting Build
+[2019.06.13-00.58.42:633][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.06.13-00.58.43:122][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.06.13-00.58.43:149][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.13-00.58.43:181][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2019.06.13-00.58.43:181][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.13-00.58.43:181][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.148ms to complete.
+[2019.06.13-00.58.43:181][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.590
+[2019.06.13-00.58.43:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.13-00.58.43:375][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.13-00.58.43:382][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.13-00.58.43:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.13-00.58.43:406][  0]LogCollectionManager: Loaded 0 collections in 0.002066 seconds
+[2019.06.13-00.58.43:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Saved/Collections/' took 0.01s
+[2019.06.13-00.58.43:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/Developers/Cole/Collections/' took 0.01s
+[2019.06.13-00.58.43:447][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cole/Documents/GitHub/Armstrong/Content/Collections/' took 0.00s
+[2019.06.13-00.58.43:447][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.06.13-00.58.43:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2732 classes and 659 folders.
+[2019.06.13-00.58.43:470][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.13-00.58.43:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:509][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:514][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:534][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:538][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:542][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:547][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:563][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:619][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:624][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:632][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.13-00.58.43:792][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.13-00.58.43:805][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.06.13-00.58.43:857][  0]LogSlate: Took 0.004632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.13-00.58.43:863][  0]LogSlate: Took 0.004173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.13-00.58.43:872][  0]LogSlate: Took 0.004390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.13-00.58.43:979][  0]LogRenderer: Reallocating scene render targets to support 2172x808 Format 9 NumSamples 1 (Frame:1).
+[2019.06.13-00.58.44:127][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.06.13-00.58.44:127][  0]LogLoad: (Engine Initialization) Total time: 21.11 seconds
+[2019.06.13-00.58.44:127][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.13-00.58.44:167][  0]LogAssetRegistry: Asset discovery search completed in 10.1707 seconds
+[2019.06.13-00.58.44:169][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.13-00.58.44:169][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2019.06.13-00.58.44:170][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.06.13-00.58.45:496][  4]LogSlate: Took 0.004495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.13-00.59.10:993][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.13-00.59.27:134][513]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/HUD/Map/ElevationMap.ElevationMap
+[2019.06.13-00.59.27:465][513]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2019.06.13-00.59.28:154][513]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.06.13-00.59.28:489][513]LogSlate: Took 0.004297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.13-00.59.42:079][200]LogSlate: Window 'ElevationMap' being destroyed
+[2019.06.13-01.00.29:513][882]BlueprintLog: New page: Compile ElevationMap
+[2019.06.13-01.00.29:571][882]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2019.06.13-01.01.28:980][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.01.29:004][987]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMapA590E0324A2403807B1AEC8046B18BAD.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.06.16:168][700]LogSlate: Took 0.005189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.06.13-01.06.43:869][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.06.43:889][819]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap3B54E9E942FB382095497496ECD1C11C.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.07.18:925][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.07.18:940][870]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap7901F664418D5E120C3F58ADD0F73DEB.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.07.19:586][946]BlueprintLog: New page: Compile ElevationMap
+[2019.06.13-01.07.19:627][946]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2019.06.13-01.08.11:455][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.08.11:473][425]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap90DA45824E5B2AEFDE0DEC99005B2D10.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.08.22:444][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.08.22:460][738]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap768470DC4DFC28BC7CC00996C7869EDD.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.08.22:813][778]BlueprintLog: New page: Compile ElevationMap
+[2019.06.13-01.08.22:852][778]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.06.13-01.08.23:590][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.08.23:608][864]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMapA7F0E7B34DD8E7DD9E0393A1C5724914.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.08.45:318][247]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UMG/HUD/GameHUD.GameHUD
+[2019.06.13-01.09.40:403][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.09.40:418][181]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD8740B0114AD3588870EF7AA1837B1601.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.10.00:735][ 83]LogSlate: Took 0.012644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.06.13-01.10.02:229][259]LogEditorTransaction: Undo Add Widget
+[2019.06.13-01.10.31:506][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.10.31:520][ 79]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD99D5A11E4C25D5D90105948F2D0AF1B3.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.10.32:244][165]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.10.32:287][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.06.13-01.10.33:055][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.10.33:067][255]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDFFD52EDF42FCAC5DC57E0D8A2DE80A24.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.12.06:820][382]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.12.06:860][382]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2019.06.13-01.12.07:588][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.12.07:600][463]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD6F11C10F44E8529BB8C2AEB22F758A5D.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.12.45:980][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.12.45:996][ 23]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDCA0BD2E64077690D267C54B3BF79358B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.13.23:526][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.13.23:539][517]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDB751B6504AA56151DB2550B0FF5AAD51.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.14.17:139][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.14.17:160][ 47]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap6F25BF6C43B5B2483FC7BB97B391519A.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.14.18:059][154]BlueprintLog: New page: Compile ElevationMap
+[2019.06.13-01.14.18:273][154]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2019.06.13-01.14.18:639][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/Map/ElevationMap" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset" SILENT=true
+[2019.06.13-01.14.18:655][189]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ElevationMap6B3E1AB5458C860325AB88B655D89BF2.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/Map/ElevationMap.uasset'
+[2019.06.13-01.14.20:019][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.14.20:032][350]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDDFB69E8C4B369532B238A5BAD1B48975.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.14.20:521][408]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.14.20:558][408]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2019.06.13-01.15.28:454][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.15.28:473][494]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDC960AD4647E9A0305621C6BC0D7F507E.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.15.35:242][296]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.15.35:286][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.06.13-01.15.35:720][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.15.35:735][340]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDD00B5C65496FE8221ED23FA96E724525.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.16.14:511][684]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.16.14:552][684]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2019.06.13-01.16.15:006][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.16.15:020][731]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD89E31AFC49B78714051F999630C5608F.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.21.16:935][728]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.21.16:978][728]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2019.06.13-01.21.17:906][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.21.17:926][836]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDDB7BC6EE461C98595FA3C499C1EE7E1B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.21.51:571][230]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.21.51:612][230]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2019.06.13-01.21.52:139][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.21.52:154][290]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDDA9894F7443F96B8D31CA49D5E66C877.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.22.09:420][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.22.09:435][727]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDBCFA29414179ED292BF06B8679377A1E.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.22.10:184][816]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.22.10:222][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2019.06.13-01.22.10:919][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.22.10:933][897]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD9FB31F0B43E0D0A2FBB475ABDA48AC4B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.22.24:346][632]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.22.24:384][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2019.06.13-01.22.24:861][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.22.24:875][683]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD2E7E40E94920FEBC3FA079AFAA8344EE.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.22.47:590][151]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.22.47:628][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.06.13-01.22.48:131][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.22.48:146][197]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD1748D9694491CE2D0426529023614C7F.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.26.59:220][602]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonHUD.ThirdPersonHUD
+[2019.06.13-01.26.59:544][602]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/UMG/HUD/Map/MapDataStruct.MapDataStruct
+[2019.06.13-01.27.06:280][399]LogSlate: Took 0.003674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.13-01.30.00:488][974]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.30.00:530][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2019.06.13-01.30.00:936][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.30.00:957][ 19]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDC43D1E074EAF3DF0121E568EB40E2633.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.30.56:041][684]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.30.56:086][684]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2019.06.13-01.30.56:420][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.30.56:438][721]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDAAD1439B4392DBD24C352E836C06AB5C.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.32.19:687][790]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.32.19:733][790]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2019.06.13-01.32.20:096][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.32.20:115][830]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD010089B0427C0FDBA2E3AC8B7CBBE0CC.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.32.29:191][916]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.32.29:234][916]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2019.06.13-01.32.29:620][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.32.29:639][959]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD5AF1AD5F49D54710973AC786B679FB33.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.33.11:405][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.33.11:424][730]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDC6E75CA24606362E9CE10FB9EBD44977.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.33.33:499][361]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.33.33:543][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2019.06.13-01.33.33:956][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.33.33:975][404]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDEA9AEC2C4CBECA153DD3F1AC1FF7608B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.33.55:883][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.33.55:902][  8]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD1E811CA547528566D4E6FF97F60BE793.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.33.56:480][ 76]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.33.56:523][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2019.06.13-01.33.56:907][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.33.56:925][116]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDF96107B84D7B1EAAAE9A39A10EA20893.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.35.44:603][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2019.06.13-01.35.44:603][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.041
+[2019.06.13-01.35.44:604][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UMG/HUD/GameHUD] ([1] browsable assets)...
+[2019.06.13-01.35.44:604][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/UMG/HUD/GameHUD]
+[2019.06.13-01.35.44:605][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Autosaves/Game/UMG/HUD/GameHUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.06.13-01.35.44:627][ 95]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD_Auto12D310C594E67CF8F7D63B18F54C61453.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/Autosaves/Game/UMG/HUD/GameHUD_Auto1.uasset'
+[2019.06.13-01.35.44:628][ 95]LogFileHelpers: Auto-saving content packages took 0.025
+[2019.06.13-01.37.23:975][892]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.37.24:019][892]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2019.06.13-01.37.24:408][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.37.24:428][935]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD1F8D61FF4CF51E1BA375F081831DD0FD.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.41.21:611][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.41.21:637][275]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD07A9507B4F585ADC905E95AF202E9F58.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.41.22:489][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.41.22:512][375]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD2B4AB6074D31CA126A28F684216E221A.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.41.22:841][412]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.41.22:883][412]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2019.06.13-01.41.23:977][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.41.24:000][540]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDF8096DD94B150A65AC5FC4A038BFC932.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.43.17:515][589]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.43.17:560][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.06.13-01.43.17:966][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.43.17:991][633]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD3ACDB29844D5105077BA7B9DC265C9F8.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.43.18:699][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.43.18:723][714]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDDEECD8DF45E306820828DC84F98004C1.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.46.13:361][894]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.46.13:407][894]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2019.06.13-01.46.14:037][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.46.14:065][963]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD002323444CB26FAD1038C7B47EEA130C.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.49.39:482][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.49.39:511][440]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDE0EB70A146BDC03A05C55A96AA859604.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.49.53:817][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.49.53:845][154]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD8F82D46C4DE77BA8738624B0A23AB032.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.50.26:216][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.50.26:242][634]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD001B5BF94FCAD7046EB9998B50243AD8.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.50.26:489][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.50.26:516][661]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDE46EE62F42E432BA22EA59B07FF68CBA.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.14:273][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.14:300][186]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDBBE2506E4CF8549BA8CF618B9EE1611B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.14:485][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.14:512][206]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD0C66669C4B29BBD7E7A535A84EB86929.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.14:640][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.14:667][219]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDBB3B26D4423389EA398928AAADAB92C0.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.21:228][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.21:253][  4]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD70EB273B4EA02DCE501D5091B324711B.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.21:421][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.21:447][ 22]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDB8DC63B0431890D993F9609242448830.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.21:584][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.21:610][ 36]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDB317555D4D8BD6E7D0A22CB39870931C.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.51.21:762][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.51.21:790][ 52]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD282CAC57414EB43760B725B6D1B3ED28.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.14:161][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.14:189][327]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD933D634B4216AE969FF8F4981E0A9F01.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.14:409][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.14:436][351]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDAD261D1F4AD45869413F71BFDB314621.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.14:571][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.14:598][365]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD466B1F4F40A750E4D1B468BB8567BD8A.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.14:742][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.14:769][380]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDE00997354B49F9EB7AD68EB07B79BCF4.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.14:929][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.14:956][397]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUDD6ABAC84413B17F42AE41A85312B95AF.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.52.16:586][591]BlueprintLog: New page: Compile GameHUD
+[2019.06.13-01.52.16:632][591]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2019.06.13-01.52.17:175][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UMG/HUD/GameHUD" FILE="../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset" SILENT=true
+[2019.06.13-01.52.17:202][652]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/GameHUD657CD56E43AE6A67E1742C9CF89EF1F4.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/UMG/HUD/GameHUD.uasset'
+[2019.06.13-01.55.22:360][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.06.13-01.55.22:547][368]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap5CC404AC452883E95AB0EDB870F21140.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.06.13-01.55.22:681][368]LogSavePackage: Moving '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Saved/ThirdPersonExampleMap_BuiltData22398D884B805300AD44FAA3EDA48D93.tmp' to '../../../../../../Users/Cole/Documents/GitHub/Armstrong/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.06.13-01.55.29:125][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
