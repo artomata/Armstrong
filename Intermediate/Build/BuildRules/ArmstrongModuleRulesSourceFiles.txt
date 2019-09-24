@@ -1,0 +1,3 @@
+C:\Users\Cole\Documents\GitHub\Armstrong\Source\Armstrong\Armstrong.Build.cs
+C:\Users\Cole\Documents\GitHub\Armstrong\Source\Armstrong.Target.cs
+C:\Users\Cole\Documents\GitHub\Armstrong\Source\ArmstrongEditor.Target.cs

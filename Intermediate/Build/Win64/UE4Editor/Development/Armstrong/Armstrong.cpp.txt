@@ -1,0 +1,2 @@
+C:\Users\Cole\Documents\GitHub\Armstrong\Intermediate\Build\Win64\UE4Editor\Development\Armstrong\Definitions.Armstrong.h
+c:\users\cole\documents\github\armstrong\source\armstrong\Armstrong.h

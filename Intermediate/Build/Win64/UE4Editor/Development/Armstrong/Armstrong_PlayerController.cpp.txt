@@ -1,0 +1,4 @@
+C:\Users\Cole\Documents\GitHub\Armstrong\Intermediate\Build\Win64\UE4Editor\Development\Armstrong\Definitions.Armstrong.h
+c:\users\cole\documents\github\armstrong\source\armstrong\Armstrong.h
+c:\users\cole\documents\github\armstrong\source\armstrong\Armstrong_PlayerController.h
+C:\Users\Cole\Documents\GitHub\Armstrong\Intermediate\Build\Win64\UE4Editor\Inc\Armstrong\Armstrong_PlayerController.generated.h

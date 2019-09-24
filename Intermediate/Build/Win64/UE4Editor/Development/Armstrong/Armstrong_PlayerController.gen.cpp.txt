@@ -1,0 +1,5 @@
+C:\Users\Cole\Documents\GitHub\Armstrong\Intermediate\Build\Win64\UE4Editor\Development\Armstrong\Definitions.Armstrong.h
+C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files (x86)\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Cole\Documents\GitHub\Armstrong\Source\Armstrong/Armstrong_PlayerController.h
+c:\users\cole\documents\github\armstrong\intermediate\build\win64\ue4editor\inc\armstrong\Armstrong_PlayerController.generated.h
