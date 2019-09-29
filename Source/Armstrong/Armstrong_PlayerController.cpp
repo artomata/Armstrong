@@ -6,5 +6,6 @@
 void AArmstrong_PlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-	SetInputMode(FInputModeGameAndUI());
+	//SetInputMode(FInputModeGameAndUI());
+	this->SetInputMode(FInputModeGameOnly());	
 }
