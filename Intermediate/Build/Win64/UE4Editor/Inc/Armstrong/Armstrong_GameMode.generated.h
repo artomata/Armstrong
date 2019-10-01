@@ -14,7 +14,16 @@ class UUserWidget;
 #endif
 #define ARMSTRONG_Armstrong_GameMode_generated_h
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_RPC_WRAPPERS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execChangeLevel) \
+	{ \
+		P_GET_PROPERTY(UNameProperty,Z_Param_strLevel); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ChangeLevel(Z_Param_strLevel); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execChangeMenuWidget) \
 	{ \
@@ -26,7 +35,16 @@ class UUserWidget;
 	}
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execChangeLevel) \
+	{ \
+		P_GET_PROPERTY(UNameProperty,Z_Param_strLevel); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ChangeLevel(Z_Param_strLevel); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execChangeMenuWidget) \
 	{ \
@@ -38,7 +56,7 @@ class UUserWidget;
 	}
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_INCLASS_NO_PURE_DECLS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArmstrong_GameMode(); \
 	friend struct Z_Construct_UClass_AArmstrong_GameMode_Statics; \
@@ -47,7 +65,7 @@ public: \
 	DECLARE_SERIALIZER(AArmstrong_GameMode)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_INCLASS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAArmstrong_GameMode(); \
 	friend struct Z_Construct_UClass_AArmstrong_GameMode_Statics; \
@@ -56,7 +74,7 @@ public: \
 	DECLARE_SERIALIZER(AArmstrong_GameMode)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_STANDARD_CONSTRUCTORS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArmstrong_GameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArmstrong_GameMode) \
@@ -69,7 +87,7 @@ private: \
 public:
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_ENHANCED_CONSTRUCTORS \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArmstrong_GameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -82,30 +100,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArmstrong_GameMode); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArmstrong_GameMode)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_PRIVATE_PROPERTY_OFFSET \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__StartingWidgetClass() { return STRUCT_OFFSET(AArmstrong_GameMode, StartingWidgetClass); } \
-	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AArmstrong_GameMode, CurrentWidget); }
+	FORCEINLINE static uint32 __PPO__StartingLevel() { return STRUCT_OFFSET(AArmstrong_GameMode, StartingLevel); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AArmstrong_GameMode, CurrentWidget); } \
+	FORCEINLINE static uint32 __PPO__CurrentLevel() { return STRUCT_OFFSET(AArmstrong_GameMode, CurrentLevel); }
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_13_PROLOG
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_GENERATED_BODY_LEGACY \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_15_PROLOG
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_PRIVATE_PROPERTY_OFFSET \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_RPC_WRAPPERS \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_INCLASS \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_STANDARD_CONSTRUCTORS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_PRIVATE_PROPERTY_OFFSET \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_RPC_WRAPPERS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_INCLASS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_GENERATED_BODY \
+#define Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_PRIVATE_PROPERTY_OFFSET \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_INCLASS_NO_PURE_DECLS \
-	Armstrong_Source_Armstrong_Armstrong_GameMode_h_16_ENHANCED_CONSTRUCTORS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_PRIVATE_PROPERTY_OFFSET \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_INCLASS_NO_PURE_DECLS \
+	Armstrong_Source_Armstrong_Armstrong_GameMode_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

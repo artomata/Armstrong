@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "Blueprint/UserWidget.h"
+#include "Kismet/GameplayStatics.h"
+
 #include "Armstrong_GameMode.generated.h"
 
 /**
@@ -16,8 +18,13 @@ class ARMSTRONG_API AArmstrong_GameMode : public AGameModeBase
 	GENERATED_BODY()
 	
 	public:
+		FName DEFAULT_LEVEL = "MainMenu";
+
 		UFUNCTION(BlueprintCallable, Category = "UMG Game")
 		void ChangeMenuWidget(TSubclassOf<UUserWidget> NewWidgetClass);
+
+		UFUNCTION(BlueprintCallable, Category = "UMG Game")
+		void ChangeLevel(FName strLevel);
 
 	protected:
 		virtual void BeginPlay() override;
@@ -25,6 +32,12 @@ class ARMSTRONG_API AArmstrong_GameMode : public AGameModeBase
 		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG Game")
 		TSubclassOf<UUserWidget> StartingWidgetClass;
 
+		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "UMG Game")
+		TAssetPtr<UWorld> StartingLevel;
+
 		UPROPERTY()
 		UUserWidget* CurrentWidget;
+
+		UPROPERTY()
+		TAssetPtr<UWorld> CurrentLevel;
 };

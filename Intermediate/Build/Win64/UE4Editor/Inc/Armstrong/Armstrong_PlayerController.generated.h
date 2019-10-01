@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARMSTRONG_Armstrong_PlayerController_generated_h
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_RPC_WRAPPERS
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_RPC_WRAPPERS
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAArmstrong_PlayerController(); \
 	friend struct Z_Construct_UClass_AArmstrong_PlayerController_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AArmstrong_PlayerController)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_INCLASS \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAArmstrong_PlayerController(); \
 	friend struct Z_Construct_UClass_AArmstrong_PlayerController_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AArmstrong_PlayerController)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_STANDARD_CONSTRUCTORS \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArmstrong_PlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArmstrong_PlayerController) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_ENHANCED_CONSTRUCTORS \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AArmstrong_PlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AArmstrong_PlayerController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AArmstrong_PlayerController)
 
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_PRIVATE_PROPERTY_OFFSET
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_12_PROLOG
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_GENERATED_BODY_LEGACY \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_13_PROLOG
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_RPC_WRAPPERS \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_INCLASS \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_STANDARD_CONSTRUCTORS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_RPC_WRAPPERS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_INCLASS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_GENERATED_BODY \
+#define Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_INCLASS_NO_PURE_DECLS \
+	Armstrong_Source_Armstrong_Armstrong_PlayerController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
